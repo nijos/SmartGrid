@@ -22,7 +22,7 @@ entity["parentcustomerid_account@odata.bind"] = "/accounts(xxxxx-xxxx-xxxx)";
 ![alt text](https://github.com/nijos/SmartGrid/blob/master/smartgridgif.gif)
 
 Known bugs.
-* Does not supporrt N:N
+* Does not support N:N
 * Validation for empty rows.
 * Does not support composite(customer lookups).
 * Poor CSS :)
