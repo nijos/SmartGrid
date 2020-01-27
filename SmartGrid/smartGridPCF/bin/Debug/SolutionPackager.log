@@ -1,0 +1,18 @@
+2020-01-27 15:56:35.768 - Info	
+Packing G:\works\PCF\QD\SmartGrid\SmartGrid\smartGridPCF\obj\Debug\ to bin\Debug\smartGridPCF.zip
+
+2020-01-27 15:56:35.820 - Info	Processing Component: Entities
+2020-01-27 15:56:35.823 - Info	Processing Component: Roles
+2020-01-27 15:56:35.825 - Info	Processing Component: Workflows
+2020-01-27 15:56:35.825 - Info	Processing Component: FieldSecurityProfiles
+2020-01-27 15:56:35.826 - Info	Processing Component: Templates
+2020-01-27 15:56:35.826 - Info	Processing Component: EntityMaps
+2020-01-27 15:56:35.826 - Info	Processing Component: EntityRelationships
+2020-01-27 15:56:35.832 - Info	Processing Component: OrganizationSettings
+2020-01-27 15:56:35.833 - Info	Processing Component: optionsets
+2020-01-27 15:56:35.833 - Info	Processing Component: CustomControls
+2020-01-27 15:56:35.848 - Info	 - superSubGrids.SmartGrid
+2020-01-27 15:56:35.998 - Info	Processing Component: EntityDataProviders
+2020-01-27 15:56:36.026 - Info	
+Unmanaged Pack complete.
+

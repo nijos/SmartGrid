@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="superSubGrids" constructor="SmartGrid" version="1.0.98" display-name-key="SmartGrid" description-key="SmartGrid for Model driven apps" control-type="standard" api-version="1.2.1">
+    <data-set name="smartGridDataSet" display-name-key="Dataset_Display_Key"/>
+    <property name="primaryLookupName" display-name-key="primaryLookupName" description-key="primary Lookup schema name for the relationship" of-type="SingleLine.Text" usage="input" required="true"/>
+    <property name="primaryEntitySet" display-name-key="primaryEntitySet" description-key="primary entityset name eg. opportunities" of-type="SingleLine.Text" usage="input" required="true"/>
+    <resources>
+      <code path="bundle.js" order="1"/>
+      <css path="css/SmartGrid.css" order="1"/>
+      <resx path="strings/SmartGrid.1033.resx" version="1.0.0"/>
+      <img path="img/Lock.png"/>
+    </resources>
+    <feature-usage>
+      <uses-feature name="WebAPI" required="true"/>
+      <uses-feature name="Utility" required="true"/>
+    </feature-usage>
+    <built-by name="pac" version="0.4.3"/>
+  </control>
+</manifest>
