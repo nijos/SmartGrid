@@ -1,13 +1,19 @@
 # SmartGrid
-Activity Summary PCF control shows the summary of activities under a record.
-
+SmartGrid PCF control sallows to create a new record directly from the subgrid without navigating to another screen.
 If this helped you, consider supporting my PCF freebies [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/nijojosephraju?locale.x=en_GB)
 
 Steps
 1. Import solution 
-2. Create aview with required filters
-3. Add control to required form with required filters.
+2. add control to subgrid
+3. give recuired parameters.
 
 ![alt text](https://media.giphy.com/media/QADVbRD1qq1guHT8T9/giphy.gif)
 
-Note: If you need to exclude certain activity types, apply the same logic in the view filter.
+Known bugs.
+* Validation for empty rows.
+* does not support composite(customer lookups).
+* Poor CSS :)
+Planned enahancements
+* Inline editing.
+* Validation for mandatory fields
+
