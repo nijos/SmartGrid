@@ -5,11 +5,15 @@ SmartGrid PCF control allows to create a new record directly from the subgrid wi
 Steps
 1. Import solution 
 2. add control to subgrid
-3. give recuired parameters.
+3. give required parameters.
+*Primary Lookup Logical name of the lookup field for the relationship.
+for example contact subgrid in the account is #parentcustomerid_account, this is to set the lookup using web api, you can use rest builder to this parameter value correctly.
+*Primary Entity Set entityset name of the current entity where the subgrid is added. 
 
-![alt text](https://media.giphy.com/media/QADVbRD1qq1guHT8T9/giphy.gif)
+![alt text](https://github.com/nijos/SmartGrid/blob/master/smartgridgif.gif)
 
 Known bugs.
+* Does not supporrt N:N
 * Validation for empty rows.
 * does not support composite(customer lookups).
 * Poor CSS :)
