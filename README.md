@@ -6,9 +6,18 @@ Steps
 1. Import solution 
 2. add control to subgrid
 3. give required parameters.
-*Primary Lookup Logical name of the lookup field for the relationship.
-for example contact subgrid in the account is #parentcustomerid_account, this is to set the lookup using web api, you can use rest builder to this parameter value correctly.
-*Primary Entity Set entityset name of the current entity where the subgrid is added. 
+
+![alt text](https://github.com/nijos/SmartGrid/blob/master/SmartGridParameters.JPG)
+
+*Primary Lookup:  Logical name of the lookup field for the relationship.
+for example contact subgrid in the account is #parentcustomerid_account, 
+
+*Primary Entity Set:  entity set name of the current entity where the subgrid is added. 
+
+This is to set the related lookup using web api, you can use rest builder to this parameter value correctly.
+for example if contact subgrid in account form is using parent customer relationship, to set the account lookup in contact follwoing code is used
+var entity = {};
+entity["parentcustomerid_account@odata.bind"] = "/accounts(xxxxx-xxxx-xxxx)";
 
 ![alt text](https://github.com/nijos/SmartGrid/blob/master/smartgridgif.gif)
 
