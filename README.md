@@ -1,4 +1,4 @@
-# ActivitySummary 
+# SmartGrid
 Activity Summary PCF control shows the summary of activities under a record.
 
 If this helped you, consdier supporting my PCF freebies [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/nijojosephraju?locale.x=en_GB)
