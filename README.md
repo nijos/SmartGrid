@@ -1,7 +1,6 @@
 # SmartGrid
 SmartGrid PCF control allows to create a new record directly from the subgrid without navigating to another screen.
 
-If this helped you, consider supporting my PCF freebies [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/nijojosephraju?locale.x=en_GB)
 
 Steps
 1. Import solution 
@@ -18,4 +17,7 @@ Known bugs.
 Planned enahancements
 * Inline editing.
 * Validation for mandatory fields
+
+If this helped you, consider supporting my PCF freebies [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://paypal.me/nijojosephraju?locale.x=en_GB)
+
 
