@@ -4,8 +4,8 @@ SmartGrid PCF control allows to create a new record directly from the subgrid wi
 
 Steps
 1. Import solution 
-2. add control to subgrid
-3. give required parameters.
+2. Add control to subgrid
+3. Give required parameters.
 
 ![alt text](https://github.com/nijos/SmartGrid/blob/master/SmartGridParameters.JPG)
 
@@ -24,7 +24,7 @@ entity["parentcustomerid_account@odata.bind"] = "/accounts(xxxxx-xxxx-xxxx)";
 Known bugs.
 * Does not supporrt N:N
 * Validation for empty rows.
-* does not support composite(customer lookups).
+* Does not support composite(customer lookups).
 * Poor CSS :)
 
 Planned enahancements
