@@ -15,7 +15,7 @@ for example contact subgrid in the account is "*parentcustomerid_account",
 * Primary Entity Set:  entity set name of the current entity where the subgrid is added . 
 
 This is to set the related lookup using web api, you can use Rest builder to get these parameter values correctly.
-for example if contact subgrid in account form is using parent customer relationship, to set the account lookup in contact follwoing code is used
+for example if contact subgrid in account form is using parent customer relationship, to set the account lookup in contact following code is used
 var entity = {};
 entity["parentcustomerid_account@odata.bind"] = "/accounts(xxxxx-xxxx-xxxx)";
 
